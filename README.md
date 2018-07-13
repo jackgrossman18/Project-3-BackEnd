@@ -12,7 +12,7 @@ Once a user has been properly authenticated, they will be able to search for the
 
 **_BackEnd Models_**
 
-**User**
+   **User**
 
 Key | Value
 --------   | --------
@@ -21,7 +21,7 @@ Email      | String
 Password   | String
 "My-Cities | Array
 
-**City**
+   **City**
 
   Key      | Value
 --------   | --------
@@ -32,7 +32,7 @@ Long       | Number
 "UV-Index" | Number
 
 
-**Favorite Cities**
+   **Favorite Cities**
 
 Key    | Value
 ------ | -------
