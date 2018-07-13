@@ -1,0 +1,19 @@
+{
+  "name": "heir-pollution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackgrossman18/Project-3-BackEnd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackgrossman18/Project-3-BackEnd/issues"
+  },
+  "homepage": "https://github.com/jackgrossman18/Project-3-BackEnd#readme"
+}
