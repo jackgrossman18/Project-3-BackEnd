@@ -88,6 +88,27 @@ app.post("/LogIn", (req, res) => {
   });
 });
 
+app.del("/DeleteAccount", (req, res) => {
+  if (req.body.email && req.body.password) {
+    let user = {
+      email: req.body.email,
+      password: req.body.password
+    };
+  } else {
+    console.log("Could not find User");
+    res.sendStatus(401);
+  };
+  User.findOneAndRemove({_id: req.User._id})
+  .exec(function(err, user) {
+    if (err) {
+      return res.status(500).json({
+        message: errorHandler.getErrorMessage(err)
+      })
+    } else {
+      return res.json(user)
+    }
+  })
+
 app.listen(app.get("port"), () => {
   console.log("Server listening on port " + app.get("port"));
 });
