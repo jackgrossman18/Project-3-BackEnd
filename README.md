@@ -9,3 +9,33 @@ Once a user has been properly authenticated, they will be able to search for the
 * User Log-In
 * User Add and Update Favorite Cities Model
 * Delte User
+
+**_BackEnd Models_**
+
+**User**
+
+Key | Value
+--------   | --------
+Username   | String
+Email      | String
+Password   | String
+"My-Cities | Array
+
+**City**
+
+  Key      | Value
+--------   | --------
+"City-Name"| String
+Country    | String
+Lat        | Number
+Long       | Number
+"UV-Index" | Number
+
+
+**Favorite Cities**
+
+Key    | Value
+------ | -------
+Email  | String
+Cities | Array
+
