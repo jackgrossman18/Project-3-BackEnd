@@ -5,7 +5,7 @@ Once a user has been properly authenticated, they will be able to search for the
 
 **_You may interact with the backend in the following ways_**
 
-* User Sign Up
-* User Log In
+* User Sign-Up
+* User Log-In
 * User Add and Update Favorite Cities Model
 * Delte User
