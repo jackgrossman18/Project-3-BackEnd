@@ -3,7 +3,7 @@ This backend allows for users to authenticate using JSON Web Tokens.
 
 Once a user has been properly authenticated, they will be able to search for the UV Index in their city of interest.
 
-_*You may interact with the backend in the following ways*_
+**_You may interact with the backend in the following ways_**
 
 * User Sign Up
 * User Log In
